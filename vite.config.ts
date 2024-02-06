@@ -22,7 +22,7 @@ export default defineConfig({
     },
     rollupOptions: {
       // input: 'src/components/index.ts',
-      external: ['react', 'react-dom'], // Mark React and ReactDOM as external dependencies,  'styled-components'
+      external: ['react', 'react-dom','@emotion/react', '@emotion/styled'], // Mark React and ReactDOM as external dependencies,  'styled-components'
 
       output: {
         globals: {

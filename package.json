@@ -1,6 +1,6 @@
 {
   "name": "yoon-react-library",
-  "version": "0.0.4",
+  "version": "0.0.10",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,13 +13,17 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@storybook/addon-essentials": "^7.4.5",
     "@storybook/addon-interactions": "^7.4.5",
     "@storybook/addon-links": "^7.4.5",
@@ -49,10 +53,5 @@
   "main": "./my-lib.umd.js",
   "module": "./my-lib.es.js",
   "types": "./index.d.ts",
-  "exports": {
-    ".": {
-      "import": "./my-lib.es.js",
-      "require": "./my-lib.umd.js"
-    }
-  }
+  "style": "./style.css"
 }
